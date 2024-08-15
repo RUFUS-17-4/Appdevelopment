@@ -1,0 +1,196 @@
+.tomato-container {
+    padding: 30px;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    max-width: fit-content;
+    margin: 40px auto;
+    line-height: 1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2c3e50;
+  }
+  
+  /* Title styling */
+  .tomato-title {
+    text-align: center;
+    color: #d80909;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .tomato-guidance-section {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+  }
+  
+  .tomato-guidance-section:hover {
+    transform: translateY(-5px);
+    color: #c0392b;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .tomato-guidance-title {
+    font-size: 24px;
+    color: #e74c3c;
+    margin-bottom: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .tomato-guidance-title::before {
+    content: '';
+    width: 4px;
+    height: 100%;
+    background-color: #c0392b;
+    position: absolute;
+    left: -12px;
+  }
+  
+  .tomato-guidance-text {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+    text-align: justify;
+    position: relative;
+    line-height: 1.8;
+  }
+  
+  .tomato-guidance-list {
+    list-style-type: none;
+    padding-left: 0;
+    position: relative;
+  }
+  
+  .tomato-guidance-list-item {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+    padding-left: 25px;
+    position: relative;
+  }
+  
+  .tomato-guidance-list-item::before {
+    content: '✔';
+    color: #e74c3c;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 18px;
+  }
+  
+  .tomato-guidance-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(192, 57, 43, 0.1);
+    border-radius: 10px;
+    z-index: -1;
+  }
+  
+  .tomato-step-button {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 25px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+  }
+  
+  .tomato-step-button:hover {
+    background-color: #c0392b;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+  }
+  
+  .tomato-stage-button {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 25px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+  }
+  
+  .tomato-stage-button:hover {
+    background-color: #c0392b;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+  }
+  
+  .tomato-step-by-step-guidance {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .tomato-step-by-step-title {
+    font-size: 24px;
+    color: #e74c3c;
+    margin-bottom: 15px;
+  }
+  
+  .tomato-step-by-step-list {
+    padding-left: 20px;
+    color: #555;
+  }
+  
+  .tomato-step-by-step-list-item {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 25px;
+  }
+  .st-link{
+    text-decoration: none;
+    color: inherit;
+  }
+  .tomato-step-by-step-list-item::before {
+    content: '🍅';
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .tomato-step-by-step-strong {
+    color: #333;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
