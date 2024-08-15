@@ -1,0 +1,69 @@
+.irrigation-system-container {
+    padding: 20px;
+    max-width: 1500px;
+    margin: 0 auto;
+
+    background-image: url('./images/i-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #94e2f8;
+  }
+  
+  .titleir {
+    font-size: 42px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f6f6f6;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .irrigation-grid {
+    display: flex;
+    flex-direction: column; /* Maintain vertical alignment */
+    gap: 20px;
+    padding-left: 440px;
+    max-width: 550px;
+  }
+  
+  .link {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color */
+  }
+  
+  .irrigation-card {
+    background-color: rgb(197, 229, 209);
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; /* Indicate it's clickable */
+    width: 100%; /* Maintain consistent width */
+    height: 150px;
+  }
+  
+  .irrigation-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .irrigation-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .irrigation-name {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .irrigation-description {
+    font-size: 17px;
+    color: #666;
+  }
