@@ -1,0 +1,99 @@
+/* Rice.css */
+
+.rice-container {
+  padding: 30px;
+  max-width: 900px;
+  margin: auto;
+  font-family: 'Arial', sans-serif;
+  background-color: #e9f5f2; /* Light green background */
+  border-radius: 15px; /* Rounded corners for a modern look */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5em;
+  color: #004d40; /* Deep teal color for title */
+  margin-bottom: 20px;
+}
+
+.guidance-section {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff; /* White background for sections */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Light shadow for depth */
+}
+
+.guidance-section h2 {
+  font-size: 1.8em;
+  color: #00796b; /* Teal color for section headers */
+  margin-bottom: 15px;
+}
+
+.guidance-section p, .guidance-section ul {
+  font-size: 1.1em;
+  color: #333; /* Dark grey color for text */
+  line-height: 1.6;
+}
+
+.step-button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  font-size: 1.3em;
+  background-color: #00796b; /* Teal background color for button */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.step-button:hover {
+  background-color: #004d40; /* Darker teal on hover */
+}
+
+.step-by-step-guidance {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff; /* White background for step-by-step guidance */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Light shadow for depth */
+}
+
+.step-by-step-guidance h2 {
+  font-size: 1.8em;
+  color: #00796b; /* Teal color for step-by-step title */
+  margin-bottom: 15px;
+}
+
+.step-by-step-guidance ol {
+  font-size: 1.1em;
+  color: #333; /* Dark grey color for step-by-step list */
+  line-height: 1.6;
+  padding-left: 20px;
+}
+
+.select-stage-link {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.stage-button {
+  padding: 15px 25px;
+  font-size: 1.2em;
+  background-color: #4caf50; /* Green background color for the button */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.stage-button:hover {
+  background-color: #388e3c; /* Darker green on hover */
+}
